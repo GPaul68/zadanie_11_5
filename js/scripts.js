@@ -13,3 +13,6 @@ Button.prototype = {
         $('body').append(this.$element);
     }
 }
+
+var btn1 = new Button('Hello');
+btn1.create();
